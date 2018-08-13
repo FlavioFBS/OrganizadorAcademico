@@ -1,0 +1,2 @@
+********  Pantalla de incio ********
+Consta de dos botones que sirven para agregar curso 

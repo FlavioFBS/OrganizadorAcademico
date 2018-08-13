@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="539.0" prefWidth="857.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.algoritmica2.VerCursosController">
+    <stylesheets>
+        <URL value="@vercursos.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tablaCurso" layoutX="26.0" layoutY="84.0" onContextMenuRequested="#contextMenu_click" prefHeight="363.0" prefWidth="825.0">
+        <columns>
+          <TableColumn fx:id="colCodigo" prefWidth="66.0" text="Código" />
+          <TableColumn fx:id="colNombre" prefWidth="109.0" text="Nombre" />
+            <TableColumn fx:id="colUniver" prefWidth="141.0" text="Universidad" />
+            <TableColumn fx:id="colFacul" prefWidth="139.0" text="Facultad" />
+            <TableColumn fx:id="colEAP" prefWidth="116.0" text="E.A.P" />
+            <TableColumn fx:id="colCiclo" prefWidth="49.0" text="Ciclo" />
+            <TableColumn fx:id="colPlanEst" prefWidth="103.0" text="Plan Estudios" />
+            <TableColumn fx:id="colHT" prefWidth="51.0" text="HorT" />
+            <TableColumn fx:id="colHP" prefWidth="51.0" text="HorP" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn_irPaginaPrincipal" layoutX="26.0" layoutY="32.0" mnemonicParsing="false" onAction="#btn_irPaginaPrincipal_click" text="&lt;--Regresar a la página principal" />
+      <Button fx:id="btnAsistencia" layoutX="332.0" layoutY="471.0" mnemonicParsing="false" onAction="#btnAsistencia_click" text="Ver y/o registrar asistencia" />
+      <Button fx:id="btnNotas" layoutX="595.0" layoutY="471.0" mnemonicParsing="false" onAction="#btnNotas_click" text="Ver y/o regisrar notas" />
+   </children>
+</AnchorPane>

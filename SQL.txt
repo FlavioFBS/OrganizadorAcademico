@@ -1,0 +1,11 @@
+CREATE DATEBASE PROYECTO;
+
+SELECT PROYECTO;
+CREATE TABLE Info_alumno (Id PRIMARY KEY AUTO_INCREMENT, Nombres VARCHAR(30),Apellidos VARCHAR(30),Codigo_alum VARCHAR(8), Escuela VARCHAR(40);
+
+CREATE TABLE Info_curso (Nombre VARCHAR(30),Codigo_curs VARCHAR(20), Escuela VARCHAR(30));
+
+/*
+CREATE TABLE Info_profesor (Nombre VARCHAR(30), Apellidos VARCHAR(30), Codigo_prof VARCHAR(8));
+*/
+CREATE TABLE Relacion_curso_alumno (Codigo_alum VARCHAR(8), Codigo_curs VARCHAR(20), Nota_Final INT (2), /*Codigo_prof VARCHAR*/);

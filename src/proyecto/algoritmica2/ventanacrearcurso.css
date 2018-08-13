@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+/* -fx-background-color: #94BBD3;
+ */
+ -fx-background-color: rgba(124,23,123,0.5);
+}
+
+.titulosCrearCurso{
+    -fx-color: #071E2C;
+}

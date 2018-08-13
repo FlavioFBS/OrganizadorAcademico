@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="362.0" prefWidth="493.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.algoritmica2.VentanaPrincipalController">
+    <stylesheets>
+        <URL value="@ventanaprincipal.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="btnAgregarCurso" layoutX="20.0" layoutY="232.0" mnemonicParsing="false" onAction="#btnAgregarCurso_click" prefHeight="87.0" prefWidth="212.0" styleClass="botonNav" text="Agregar curso+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnVerCurso" layoutX="263.0" layoutY="232.0" mnemonicParsing="false" onAction="#btnVerCurso_click" prefHeight="87.0" prefWidth="212.0" styleClass="botonNav" text="Ver cursos">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="txtNombreProfe" layoutX="204.0" layoutY="109.0" text="Nombre: ------------------" />
+      <Label fx:id="txtApellidoProfe" layoutX="204.0" layoutY="136.0" text="Apellido: ------------------" />
+      <Label fx:id="txtCodigoProfe" layoutX="204.0" layoutY="164.0" text="Codigo: ------------------" />
+      <Label layoutX="123.0" layoutY="78.0" text="Datos-profesor" />
+   </children>
+</AnchorPane>
